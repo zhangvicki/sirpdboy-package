@@ -5,5 +5,5 @@ function index()
 		return
 	end
 
-    entry({"admin", "control", "eqos"}, cbi("eqos"), "网速限制", 90).dependent = true
+    entry({"admin", "network", "eqos"}, cbi("eqos"), "网速限制", 90).dependent = true
 end
